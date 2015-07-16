@@ -53,6 +53,29 @@ GROUP BY Customer_Id
 ORDER BY Quantity
 LIMIT 1;
 
+/*
+ * WorksheetTwoExtraQueries
+ */
+-- Find all the comment customers made about the book “Pyramids”
+SELECT Comment
+FROM RATING
+WHERE Book_Id = (SELECT Id
+                 FROM BOOK
+                 WHERE Title LIKE '%Pyramids%');
+
+-- Find all book titles that published by ”Electronic Industry Press”
+SELECT Title
+FROM BOOK
+WHERE Publisher_Id = (SELECT Id
+                      FROM PUBLISHER
+                      WHERE Name LIKE '%Electronic Industry Press%');
+
+-- Find average price of books in the category of “Computer”
+SELECT avg(Price)
+FROM BOOK
+WHERE Category_Id = (SELECT Id
+                     FROM CATEGORY
+                     WHERE Name LIKE '%Computer%');
 
 /**
   * WorksheetTwoAdvancedQueries
