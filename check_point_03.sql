@@ -27,8 +27,7 @@ WHERE Quantity < 5;
 
 -- Give all the customers who purchased a book by Pratchett and the titles of Pratchett books they purchased
 SELECT
-  First_Name,
-  Last_Name,
+  (First_Name || Last_Name) AS Customer_Name,
   Title
 FROM BOOK
   JOIN BOOK_AUTHOR ON BOOK_AUTHOR.Book_Id = BOOK.Id
@@ -99,7 +98,12 @@ FROM CUSTOMER
   JOIN ORDERS ON ORDERS.Customer_Id = CUSTOMER.Id
   JOIN BOOK ON ORDERS.Book_Id = BOOK.Id
 GROUP BY Customer_Id
-HAVING sum(Price * Quantity) > avg(Price * Quantity);
+HAVING sum(Price * Quantity) > (SELECT avg(Money_Spent)
+                                FROM (SELECT sum(Price * Quantity) AS Money_Spent
+                                      FROM CUSTOMER
+                                        JOIN ORDERS ON ORDERS.Customer_Id = CUSTOMER.Id
+                                        JOIN BOOK ON ORDERS.Book_Id = BOOK.Id
+                                      GROUP BY Customer_Id));
 
 -- Provide a list of the titles in the database and associated total copies sold to customers, sorted from the title that has sold the most individual copies to the title that has sold the least.
 SELECT
@@ -167,10 +171,21 @@ WHERE Id IN (SELECT Author_Id
              FROM BOOK_AUTHOR
              WHERE Book_Id IN (SELECT Book_Id
                                FROM ORDERS
-                               WHERE Customer_Id IN (SELECT CUSTOMER.Id
+                               WHERE Customer_Id IN (SELECT
+                                                       CUSTOMER.Id
                                                      FROM CUSTOMER
                                                        JOIN ORDERS ON ORDERS.Customer_Id = CUSTOMER.Id
                                                        JOIN BOOK ON ORDERS.Book_Id = BOOK.Id
                                                      GROUP BY Customer_Id
-                                                     HAVING sum(Price * Quantity) > avg(Price * Quantity))));
+                                                     HAVING sum(Price * Quantity) > (SELECT avg(Money_Spent)
+                                                                                     FROM (SELECT sum(Price *
+                                                                                                      Quantity) AS Money_Spent
+                                                                                           FROM CUSTOMER
+                                                                                             JOIN ORDERS
+                                                                                               ON ORDERS.Customer_Id =
+                                                                                                  CUSTOMER.Id
+                                                                                             JOIN BOOK
+                                                                                               ON ORDERS.Book_Id =
+                                                                                                  BOOK.Id
+                                                                                           GROUP BY Customer_Id)))));
 
