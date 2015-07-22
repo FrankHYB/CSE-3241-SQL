@@ -14,8 +14,7 @@ CREATE TABLE CATEGORY (
 );
 
 CREATE TABLE BOOK (
-  Id           INTEGER PRIMARY KEY,
-  ISBN         CHARACTER(13) UNIQUE NOT NULL,
+  ISBN         CHARACTER(13) PRIMARY KEY,
   Title        VARCHAR(255),
   Year         CHARACTER(4),
   Price        DOUBLE,
@@ -26,62 +25,82 @@ CREATE TABLE BOOK (
 );
 
 CREATE TABLE BOOK_AUTHOR (
-  Book_Id   INTEGER,
+  Book_ISBN CHARACTER(13),
   Author_Id INTEGER,
-  PRIMARY KEY (Book_Id, Author_Id),
-  FOREIGN KEY (Book_Id) REFERENCES BOOK (Id) ON DELETE SET NULL,
+  PRIMARY KEY (Book_ISBN, Author_Id),
+  FOREIGN KEY (Book_ISBN) REFERENCES Book (ISBN) ON DELETE SET NULL,
   FOREIGN KEY (Author_Id) REFERENCES AUTHOR (Id) ON DELETE SET NULL
 );
 
 CREATE TABLE CUSTOMER (
-  Id              INTEGER PRIMARY KEY AUTOINCREMENT,
-  First_Name      VARCHAR(20),
-  Last_Name       VARCHAR(20),
-  Email           VARCHAR(50) UNIQUE,
-  Credit_Card_no  CHARACTER(20),
-  Pass_Hash       CHARACTER(66),
-  Billing_Address VARCHAR(200),
-  Address         VARCHAR(200)
+  Id                 INTEGER PRIMARY KEY AUTOINCREMENT,
+  First_Name         VARCHAR(20),
+  Last_Name          VARCHAR(20),
+  Email              VARCHAR(50) UNIQUE,
+  Pass_Hash          CHARACTER(66),
+  Address_Id         INTEGER,
+  Credit_Card_Number INTEGER,
+  FOREIGN KEY (Address_Id) REFERENCES ADDRESS (Id),
+  FOREIGN KEY (Credit_Card_Number) REFERENCES CREDIT_CARD (Credit_Card_Number)
 );
 
 CREATE TABLE ORDERS (
-  Id            INTEGER PRIMARY KEY,
+  Id            INTEGER PRIMARY KEY AUTOINCREMENT,
   Customer_Id   INTEGER,
-  Book_Id       INTEGER,
+  Book_ISBN     CHARACTER(13),
   Quantity      INTEGER,
   Purchase_Date DATETIME,
-  FOREIGN KEY (Book_Id) REFERENCES BOOK (Id) ON DELETE SET NULL,
-  FOREIGN KEY (Customer_Id) REFERENCES CUSTOMER (Id) ON DELETE SET NULL
+  FOREIGN KEY (Book_ISBN) REFERENCES Book (ISBN) ON DELETE SET NULL,
+  FOREIGN KEY (Customer_Id) REFERENCES CUSTOMER (Id) ON DELETE CASCADE
 );
 
 CREATE TABLE RATING (
   Customer_Id INTEGER,
-  Book_Id     INTEGER,
+  Book_ISBN   CHARACTER(13),
   Star_Count  INTEGER CHECK (Star_Count BETWEEN 1 AND 5),
   Comment     VARCHAR(400),
-  FOREIGN KEY (Book_Id) REFERENCES BOOK (Id) ON DELETE SET NULL,
-  FOREIGN KEY (Customer_Id) REFERENCES CUSTOMER (Id) ON DELETE SET NULL
-);
-
-CREATE TABLE BOOK_STATUS (
-  Book_Id           INTEGER,
-  One_Star_Count    INTEGER,
-  Two_Stars_Count   INTEGER,
-  Three_Stars_Count INTEGER,
-  Four_Stars_Count  INTEGER,
-  Five_Stars_Count  INTEGER,
-  Overall_Rating    INTEGER,
-  Amount_Sold       INTEGER,
-  FOREIGN KEY (Book_Id) REFERENCES BOOK (Id) ON DELETE SET NULL
+  PRIMARY KEY (Customer_Id, Book_ISBN),
+  FOREIGN KEY (Book_ISBN) REFERENCES Book (ISBN) ON DELETE CASCADE,
+  FOREIGN KEY (Customer_Id) REFERENCES CUSTOMER (Id) ON DELETE CASCADE
 );
 
 CREATE TABLE BOOK_STOCK (
-  Book_Id  INTEGER,
-  Quantity INTEGER CHECK (Quantity >= 0)
+  Book_ISBN    CHARACTER(13),
+  Warehouse_Id INTEGER,
+  Quantity     INTEGER CHECK (Quantity >= 0),
+  PRIMARY KEY (Book_ISBN, Warehouse_Id),
+  FOREIGN KEY (Warehouse_Id) REFERENCES WAREHOUSE (Id)
 );
 
-CREATE TABLE SHIPPING_STATUS (
-  Order_Id    INTEGER PRIMARY KEY,
-  Tracking_No INTEGER,
-  FOREIGN KEY (Order_Id) REFERENCES ORDERS (Id) ON DELETE CASCADE
+CREATE TABLE CREDIT_CARD (
+  Credit_Card_Number INTEGER PRIMARY KEY ,
+  CVV_Code           INTEGER,
+  Billing_Address    INTEGER,
+  FOREIGN KEY (Billing_Address) REFERENCES ADDRESS (Id)
 );
+
+CREATE TABLE WAREHOUSE (
+  Id         INTEGER PRIMARY KEY,
+  Address_Id INTEGER,
+  FOREIGN KEY (Address_Id) REFERENCES ADDRESS (Id)
+);
+
+CREATE TABLE ADDRESS (
+  Id             INTEGER PRIMARY KEY AUTOINCREMENT,
+  Name           VARCHAR(50),
+  Street_Address VARCHAR(200),
+  City           VARCHAR(100),
+  State_Id       INTEGER CHECK (State_Id BETWEEN 1 AND 50),
+  Zip            CHARACTER(5),
+  FOREIGN KEY (State_Id) REFERENCES STATE (Id) ON DELETE SET NULL
+);
+
+CREATE TABLE STATE (
+  Id   INTEGER PRIMARY KEY,
+  Name VARCHAR(40),
+  Code CHARACTER(2)
+);
+
+-- Creating index on frequently queried columns
+CREATE INDEX BOOK_INDEX ON BOOK (ISBN);
+CREATE INDEX RATING_INDEX ON RATING (Book_ISBN);
