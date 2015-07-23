@@ -20,12 +20,12 @@ CREATE VIEW MOST_GORGEOUS_STATE AS
     JOIN BOOK ON Book.ISBN = ORDERS.Book_ISBN
     JOIN CUSTOMER ON CUSTOMER.Id = ORDERS.Customer_Id
     JOIN ADDRESS ON ADDRESS.Id = CUSTOMER.Address_Id
-    JOIN STATE ON STATE.Id = ADDRESS.State_Id
-  GROUP BY State_Id
+    JOIN STATE ON STATE.Code = ADDRESS.State_Code
+  GROUP BY State_Code
   ORDER BY sum(Price * Quantity)
     DESC
   LIMIT 1;
 
 /**
- *
+ * Most welcomed
  */
