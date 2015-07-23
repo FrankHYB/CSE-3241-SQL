@@ -1,3 +1,6 @@
+/**
+ * Table creation.
+ */
 CREATE TABLE BOOK (
   ISBN  CHARACTER(13) PRIMARY KEY,
   Title VARCHAR(255),
@@ -49,7 +52,7 @@ CREATE TABLE CUSTOMER (
   First_Name         VARCHAR(20),
   Last_Name          VARCHAR(20),
   Email              VARCHAR(50) UNIQUE,
-  Pass_Hash          CHARACTER(66),
+  Pass_Hash          CHARACTER(66), -- Store salted password for security reasons.
   Address_Id         INTEGER,
   Credit_Card_Number INTEGER,
   FOREIGN KEY (Address_Id) REFERENCES ADDRESS (Id),
@@ -112,6 +115,37 @@ CREATE TABLE STATE (
   Name VARCHAR(40)
 );
 
--- Creating index on frequently queried columns
+/**
+ * Index creation.
+ */
 CREATE INDEX BOOK_INDEX ON BOOK (ISBN);
 CREATE INDEX RATING_INDEX ON RATING (Book_ISBN);
+
+/**
+ * View creation.
+ */
+-- A view that contains all the ratings for a book.
+CREATE VIEW BOOK_RATING AS
+  SELECT
+    Title,
+    (First_Name || ' ' || Last_Name) AS Customer_Name,
+    Star_Count,
+    Comment
+  FROM BOOK
+    JOIN RATING ON BOOK.ISBN = RATING.Book_ISBN
+    JOIN CUSTOMER ON CUSTOMER.Id = RATING.Customer_Id;
+
+-- The most gorgeous state from which people spend the most money.
+CREATE VIEW MOST_GORGEOUS_STATE AS
+  SELECT STATE.Name
+  FROM ORDERS
+    JOIN BOOK ON Book.ISBN = ORDERS.Book_ISBN
+    JOIN CUSTOMER ON CUSTOMER.Id = ORDERS.Customer_Id
+    JOIN ADDRESS ON ADDRESS.Id = CUSTOMER.Address_Id
+    JOIN STATE ON STATE.Code = ADDRESS.State_Code
+  GROUP BY State_Code
+  ORDER BY sum(Price * Quantity)
+    DESC
+  LIMIT 1;
+
+-- Most welcomed
