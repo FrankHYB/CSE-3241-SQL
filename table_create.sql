@@ -73,7 +73,7 @@ CREATE TABLE BOOK_STOCK (
 );
 
 CREATE TABLE CREDIT_CARD (
-  Credit_Card_Number INTEGER PRIMARY KEY ,
+  Credit_Card_Number INTEGER PRIMARY KEY,
   CVV_Code           INTEGER,
   Billing_Address    INTEGER,
   FOREIGN KEY (Billing_Address) REFERENCES ADDRESS (Id)
