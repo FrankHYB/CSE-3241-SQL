@@ -1,6 +1,45 @@
-#Table Explanation
-- Book
-  - 
-
+#Entity Explanation
+1. BOOK
+  - Entity for a book in real life.
+  - Explanation of attributes
+    - `ISBN` : The ISBN of a book, primary key for this entity, stored as `CHARACTER` with fixed length of 13 (standard length of ISBN).
+    - `Title` : The title of a book, stored as `VARCHAR` with maximum length of 255.
+    - `Year` : Year the book was published, stored as `CHARACTER` with fix length of 4.
+    - `Price` : Price of the book, stored as `DOUBLE`.
+- AUTHOR
+  - Entity for the author of a book.
+  - Explanation of attributes:
+    - `Id` : The id of this author, primary key for this entity, stored as `INTEGER`.
+    - `Name` : The name of this author, stored as `VARCHAR` with maximum length of 100.
+- CATEGORY
+  - Entity for the category a book belongs to.
+  - Explanation of attributes:
+    - `Id` : The id of this category, primary key for this entity, stored as `INTEGER`.
+    - `Name` : The name of this category, stored as `VARCHAR` with maximum length of 100.
+- PUBLISHER
+  - Entity for the publisher of a book.
+  - Explanation of attributes:
+    - `Id` : The id of this publisher, primary key for this entity, stored as `INTEGER`.
+    - `Name` : The name of this publisher, stored as `VARCHAR` with maximum length of 100.
+- BOOK_AUTHOR
+- BOOK_CATEGORY
+- BOOK_PUBLISHER
+- CUSTOMER
+  - Entity for a customer in real life.
+  - Explanation of attributes:
+   - `Id` : The id of this customer, primary key for this entity, stored as `INTEGER`.
+   - `First_Name` : First name of this customer, stored as `VARCHAR` with maximum length of 20.
+   - `Last_Name` : Last name of this customer, stored as `VARCHAR` with maximum length of 20.
+   - 'Email' : Email address of this customer, required to be unique, stored as `VARCHAR` with maximum length of 50.
+   - `Pass_Hash` : SHA-1 salted password using PBKDF2 with 1000 iterations, stored as `CHARACTER` with fixed length of 66.
+   - `Address_Id` : The id of this customer's address, this is a foreign key referencing the `Id` in `ADDRESS`.
+   - `Credit_Card_Number` : The credit card number of this customer, this is a foreign key referencing the `Credit_Card_Number` in `CREDIT_CARD`.
+- ORDERS
+- RATING
+- BOOK_STOCK
+- CREDIT_CARD
+- WAREHOUSE
+- ADDRESS
+- STATE
 
 #Sample Queries
