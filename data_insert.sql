@@ -1,62 +1,62 @@
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (1, 'The Ohio State University', '281 W. Lane Ave', 'Columbus', 35, '43210');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (1, 'The Ohio State University', '281 W. Lane Ave', 'Columbus', 'OH', '43210');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (2, 'Thompson Library', '1858 Neil Ave', 'Columbus', 35, '43210');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (2, 'Thompson Library', '1858 Neil Ave', 'Columbus', 'OH', '43210');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (3, 'Eighteenth Avenue Library', '175 W. 18th Ave', 'Columbus', 35, '43210');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (3, 'Eighteenth Avenue Library', '175 W. 18th Ave', 'Columbus', 'OH', '43210');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (4, 'Library Book Depository', '2700 Kenny Rd', 'Columbus', 35, '43210');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (4, 'Library Book Depository', '2700 Kenny Rd', 'Columbus', 'OH', '43210');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (5, 'Dreese Laboratories', '2015 Neil Ave', 'Columbus', 35, '43210');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (5, 'Dreese Laboratories', '2015 Neil Ave', 'Columbus', 'OH', '43210');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (6, 'Caldwell Laboratory', '2024 Neil Ave', 'Columbus', 35, '43210');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (6, 'Caldwell Laboratory', '2024 Neil Ave', 'Columbus', 'OH', '43210');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (7, 'Baker Systems Engineering', '1971 Neil Ave', 'Columbus', 35, '43210');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (7, 'Baker Systems Engineering', '1971 Neil Ave', 'Columbus', 'OH', '43210');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (8, 'Bolz Hall', '2036 Neil Ave', 'Columbus', 35, '43210');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (8, 'Bolz Hall', '2036 Neil Ave', 'Columbus', 'OH', '43210');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (9, 'Random Address 1', '610 Oak Avenue', 'Coatesville', 38, '19320');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (9, 'Random Address 1', '610 Oak Avenue', 'Coatesville', 'PA', '19320');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (10, 'Random Address 2', '410 Howard Street', 'Washington', 38, '15301');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (10, 'Random Address 2', '410 Howard Street', 'Washington', 'PA', '15301');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (11, 'Random Address 3', '402 State Street', 'Greensboro', 33, '27405');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (11, 'Random Address 3', '402 State Street', 'Greensboro', 'NC', '27405');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (12, 'Random Address 4', '727 River Road', 'Cantonment', 9, '32533');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (12, 'Random Address 4', '727 River Road', 'Cantonment', 'FL', '32533');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (13, 'Random Address 5', '754 Brown Street', 'Perrysburg', 35, '43551');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (13, 'Random Address 5', '754 Brown Street', 'Perrysburg', 'OH', '43551');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (14, 'Random Address 6', '493 Cedar Court', 'Casselberry', 9, '32707');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (14, 'Random Address 6', '493 Cedar Court', 'Casselberry', 'FL', '32707');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (15, 'Random Address 7', '975 3rd Avenue', 'Fond Du Lac', 49, '54935');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (15, 'Random Address 7', '975 3rd Avenue', 'Fond Du Lac', 'WI', '54935');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (16, 'Random Address 8', '536 Fawn Lane', 'Saint Charles', 13, '60174');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (16, 'Random Address 8', '536 Fawn Lane', 'Saint Charles', 'IL', '60174');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (17, 'Random Address 9', '113 Clark Street', 'Columbia', 20, '21044');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (17, 'Random Address 9', '113 Clark Street', 'Columbia', 'MD', '21044');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (18, 'Random Address 10', '575 High Street', 'Norwich', 7, '06360');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (18, 'Random Address 10', '575 High Street', 'Norwich', 'CT', '06360');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (19, 'Random Address 11', '848 King Street', 'Santa Clara', 5, '95050');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (19, 'Random Address 11', '848 King Street', 'Santa Clara', 'CA', '95050');
 
-INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Id, Zip)
-VALUES (20, 'Random Address 12', '415 7th Avenue', 'Evans', 10, '30809');
+INSERT INTO ADDRESS (Id, Name, Street_Address, City, State_Code, Zip)
+VALUES (20, 'Random Address 12', '415 7th Avenue', 'Evans', 'GA', '30809');
 
 
 INSERT INTO WAREHOUSE (Id, Address_Id) VALUES (1, 2);
@@ -80,56 +80,56 @@ INSERT INTO WAREHOUSE (Id, Address_Id) VALUES (18, 19);
 INSERT INTO WAREHOUSE (Id, Address_Id) VALUES (19, 20);
 INSERT INTO WAREHOUSE (Id, Address_Id) VALUES (20, 12);
 
-INSERT INTO STATE (Id, Name, Code) VALUES (1, 'Alabama', 'AL');
-INSERT INTO STATE (Id, Name, Code) VALUES (2, 'Alaska', 'AK');
-INSERT INTO STATE (Id, Name, Code) VALUES (3, 'Arizona', 'AZ');
-INSERT INTO STATE (Id, Name, Code) VALUES (4, 'Arkansas', 'AR');
-INSERT INTO STATE (Id, Name, Code) VALUES (5, 'California', 'CA');
-INSERT INTO STATE (Id, Name, Code) VALUES (6, 'Colorado', 'CO');
-INSERT INTO STATE (Id, Name, Code) VALUES (7, 'Connecticut', 'CT');
-INSERT INTO STATE (Id, Name, Code) VALUES (8, 'Delaware', 'DE');
-INSERT INTO STATE (Id, Name, Code) VALUES (9, 'Florida', 'FL');
-INSERT INTO STATE (Id, Name, Code) VALUES (10, 'Georgia', 'GA');
-INSERT INTO STATE (Id, Name, Code) VALUES (11, 'Hawaii', 'HI');
-INSERT INTO STATE (Id, Name, Code) VALUES (12, 'Idaho', 'ID');
-INSERT INTO STATE (Id, Name, Code) VALUES (13, 'Illinois', 'IL');
-INSERT INTO STATE (Id, Name, Code) VALUES (14, 'Indiana', 'IN');
-INSERT INTO STATE (Id, Name, Code) VALUES (15, 'Iowa', 'IA');
-INSERT INTO STATE (Id, Name, Code) VALUES (16, 'Kansas', 'KS');
-INSERT INTO STATE (Id, Name, Code) VALUES (17, 'Kentucky', 'KY');
-INSERT INTO STATE (Id, Name, Code) VALUES (18, 'Louisiana', 'LA');
-INSERT INTO STATE (Id, Name, Code) VALUES (19, 'Maine', 'ME');
-INSERT INTO STATE (Id, Name, Code) VALUES (20, 'Maryland', 'MD');
-INSERT INTO STATE (Id, Name, Code) VALUES (21, 'Massachusetts', 'MA');
-INSERT INTO STATE (Id, Name, Code) VALUES (22, 'Michigan', 'MI');
-INSERT INTO STATE (Id, Name, Code) VALUES (23, 'Minnesota', 'MN');
-INSERT INTO STATE (Id, Name, Code) VALUES (24, 'Mississippi', 'MS');
-INSERT INTO STATE (Id, Name, Code) VALUES (25, 'Missouri', 'MO');
-INSERT INTO STATE (Id, Name, Code) VALUES (26, 'Montana', 'MT');
-INSERT INTO STATE (Id, Name, Code) VALUES (27, 'Nebraska', 'NE');
-INSERT INTO STATE (Id, Name, Code) VALUES (28, 'Nevada', 'NV');
-INSERT INTO STATE (Id, Name, Code) VALUES (29, 'New Hampshire', 'NH');
-INSERT INTO STATE (Id, Name, Code) VALUES (30, 'New Jersey', 'NJ');
-INSERT INTO STATE (Id, Name, Code) VALUES (31, 'New Mexico', 'NM');
-INSERT INTO STATE (Id, Name, Code) VALUES (32, 'New York', 'NY');
-INSERT INTO STATE (Id, Name, Code) VALUES (33, 'North Carolina', 'NC');
-INSERT INTO STATE (Id, Name, Code) VALUES (34, 'North Dakota', 'ND');
-INSERT INTO STATE (Id, Name, Code) VALUES (35, 'Ohio', 'OH');
-INSERT INTO STATE (Id, Name, Code) VALUES (36, 'Oklahoma', 'OK');
-INSERT INTO STATE (Id, Name, Code) VALUES (37, 'Oregon', 'OR');
-INSERT INTO STATE (Id, Name, Code) VALUES (38, 'Pennsylvania', 'PA');
-INSERT INTO STATE (Id, Name, Code) VALUES (39, 'Rhode Island', 'RI');
-INSERT INTO STATE (Id, Name, Code) VALUES (40, 'South Carolina', 'SC');
-INSERT INTO STATE (Id, Name, Code) VALUES (41, 'South Dakota', 'SD');
-INSERT INTO STATE (Id, Name, Code) VALUES (42, 'Tennessee', 'TN');
-INSERT INTO STATE (Id, Name, Code) VALUES (43, 'Texas', 'TX');
-INSERT INTO STATE (Id, Name, Code) VALUES (44, 'Utah', 'UT');
-INSERT INTO STATE (Id, Name, Code) VALUES (45, 'Vermont', 'VT');
-INSERT INTO STATE (Id, Name, Code) VALUES (46, 'Virginia', 'VA');
-INSERT INTO STATE (Id, Name, Code) VALUES (47, 'Washington', 'WA');
-INSERT INTO STATE (Id, Name, Code) VALUES (48, 'West Virginia', 'WV');
-INSERT INTO STATE (Id, Name, Code) VALUES (49, 'Wisconsin', 'WI');
-INSERT INTO STATE (Id, Name, Code) VALUES (50, 'Wyoming', 'WY');
+INSERT INTO STATE (Code, Name) VALUES ('AL', 'Alabama');
+INSERT INTO STATE (Code, Name) VALUES ('AK', 'Alaska');
+INSERT INTO STATE (Code, Name) VALUES ('AZ', 'Arizona');
+INSERT INTO STATE (Code, Name) VALUES ('AR', 'Arkansas');
+INSERT INTO STATE (Code, Name) VALUES ('CA', 'California');
+INSERT INTO STATE (Code, Name) VALUES ('CO', 'Colorado');
+INSERT INTO STATE (Code, Name) VALUES ('CT', 'Connecticut');
+INSERT INTO STATE (Code, Name) VALUES ('DE', 'Delaware');
+INSERT INTO STATE (Code, Name) VALUES ('FL', 'Florida');
+INSERT INTO STATE (Code, Name) VALUES ('GA', 'Georgia');
+INSERT INTO STATE (Code, Name) VALUES ('HI', 'Hawaii');
+INSERT INTO STATE (Code, Name) VALUES ('ID', 'Idaho');
+INSERT INTO STATE (Code, Name) VALUES ('IL', 'Illinois');
+INSERT INTO STATE (Code, Name) VALUES ('IN', 'Indiana');
+INSERT INTO STATE (Code, Name) VALUES ('IA', 'Iowa');
+INSERT INTO STATE (Code, Name) VALUES ('KS', 'Kansas');
+INSERT INTO STATE (Code, Name) VALUES ('KY', 'Kentucky');
+INSERT INTO STATE (Code, Name) VALUES ('LA', 'Louisiana');
+INSERT INTO STATE (Code, Name) VALUES ('ME', 'Maine');
+INSERT INTO STATE (Code, Name) VALUES ('MD', 'Maryland');
+INSERT INTO STATE (Code, Name) VALUES ('MA', 'Massachusetts');
+INSERT INTO STATE (Code, Name) VALUES ('MI', 'Michigan');
+INSERT INTO STATE (Code, Name) VALUES ('MN', 'Minnesota');
+INSERT INTO STATE (Code, Name) VALUES ('MS', 'Mississippi');
+INSERT INTO STATE (Code, Name) VALUES ('MO', 'Missouri');
+INSERT INTO STATE (Code, Name) VALUES ('MT', 'Montana');
+INSERT INTO STATE (Code, Name) VALUES ('NE', 'Nebraska');
+INSERT INTO STATE (Code, Name) VALUES ('NV', 'Nevada');
+INSERT INTO STATE (Code, Name) VALUES ('NH', 'New Hampshire');
+INSERT INTO STATE (Code, Name) VALUES ('NJ', 'New Jersey');
+INSERT INTO STATE (Code, Name) VALUES ('NM', 'New Mexico');
+INSERT INTO STATE (Code, Name) VALUES ('NY', 'New York');
+INSERT INTO STATE (Code, Name) VALUES ('NC', 'North Carolina');
+INSERT INTO STATE (Code, Name) VALUES ('ND', 'North Dakota');
+INSERT INTO STATE (Code, Name) VALUES ('OH', 'Ohio');
+INSERT INTO STATE (Code, Name) VALUES ('OK', 'Oklahoma');
+INSERT INTO STATE (Code, Name) VALUES ('OR', 'Oregon');
+INSERT INTO STATE (Code, Name) VALUES ('PA', 'Pennsylvania');
+INSERT INTO STATE (Code, Name) VALUES ('RI', 'Rhode Island');
+INSERT INTO STATE (Code, Name) VALUES ('SC', 'South Carolina');
+INSERT INTO STATE (Code, Name) VALUES ('SD', 'South Dakota');
+INSERT INTO STATE (Code, Name) VALUES ('TN', 'Tennessee');
+INSERT INTO STATE (Code, Name) VALUES ('TX', 'Texas');
+INSERT INTO STATE (Code, Name) VALUES ('UT', 'Utah');
+INSERT INTO STATE (Code, Name) VALUES ('VT', 'Vermont');
+INSERT INTO STATE (Code, Name) VALUES ('VA', 'Virginia');
+INSERT INTO STATE (Code, Name) VALUES ('WA', 'Washington');
+INSERT INTO STATE (Code, Name) VALUES ('WV', 'West Virginia');
+INSERT INTO STATE (Code, Name) VALUES ('WI', 'Wisconsin');
+INSERT INTO STATE (Code, Name) VALUES ('WY', 'Wyoming');
 
 INSERT INTO PUBLISHER (id, name) VALUES (1, 'Sybex');
 INSERT INTO PUBLISHER (id, name) VALUES (2, 'McGraw-Hill Osborne Media');
@@ -203,7 +203,6 @@ INSERT INTO CATEGORY (id, name) VALUES (7, 'Home Design');
 INSERT INTO CATEGORY (id, name) VALUES (8, 'Horror');
 INSERT INTO CATEGORY (id, name) VALUES (9, 'Fantasy');
 INSERT INTO CATEGORY (id, name) VALUES (10, 'Bibliography‎');
-INSERT INTO CATEGORY (id, name) VALUES (10, 'Art');
 INSERT INTO CATEGORY (id, name) VALUES (11, 'Travel');
 INSERT INTO CATEGORY (id, name) VALUES (12, 'Sports');
 INSERT INTO CATEGORY (id, name) VALUES (13, 'Music');
@@ -213,7 +212,7 @@ INSERT INTO CATEGORY (id, name) VALUES (16, 'Medical');
 INSERT INTO CATEGORY (id, name) VALUES (17, 'Wine');
 INSERT INTO CATEGORY (id, name) VALUES (18, 'Philosophy');
 INSERT INTO CATEGORY (id, name) VALUES (19, 'Photography');
-INSERT INTO CATEGORY (id, name) VALUES (20, 'Romance');
+INSERT INTO CATEGORY (id, name) VALUES (20, 'Art');
 
 INSERT INTO AUTHOR (Id, Name) VALUES (1, 'Chip Dawes');
 INSERT INTO AUTHOR (Id, Name) VALUES (2, 'Biju Thomas');
@@ -317,224 +316,333 @@ INSERT INTO AUTHOR (Id, Name) VALUES (99, 'Andy Rae');
 INSERT INTO AUTHOR (Id, Name) VALUES (100, 'Joseph Truini');
 INSERT INTO AUTHOR (Id, Name) VALUES (101, 'Terry Pratchett');
 
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0782140661', 'OCP: Oracle9i Certification Kit', '2002', 104.97, 1, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0072227885', 'SQL Server 2000 for Experienced DBA''s', '2003', 34.99, 2, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0471200247', 'The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling', '2002', 50.00, 3, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0072227710', 'How To Do Everything with Your Tablet PC', '2003', 17.49, 2, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id) VALUES
-  ('1558605525', 'Data Mining: Practical Machine Learning Tools and Techniques with Java Implementations', '1999',
-   49.95, 4, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0972263608', 'Creating Documents with BusinessObjects 5.1', '2002', 99.00, 5, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0201615762', 'The Guru''s Guide to Transact-SQL', '2000', 38.49, 6, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0782140114', 'Access 2002 Developer''s Handbook Set', '2001', 69.99, 1, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0321125169', 'ColdFusion MX Web Application Construction Kit', '2002', 38.49, 7, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0805317554', 'Fundamentals of Database Systems ', '1999', 95.00, 8, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1861004486', 'Professional SQL Server 2000 Programming', '2000', 41.99, 9, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0735712123', 'MySQL', '2003', 34.99, 8, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0425188361', 'Cerulean Sins', '2003', 16.07, 10, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0142001740', 'The Secret Life of Bees', '2003', 14.00, 11, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0596004478', 'Google Hacks', '2003', 24.95, 12, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id) VALUES ('0071414339',
-                                                                               'Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High',
-                                                                               '2003', 18.95, 13, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0312311354', 'The Pianist', '2003', 13.00, 14, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0312287941', 'The Girl in the Red Coat: A Memoir', '2002', 25.95, 15, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0312243022', 'The Hours', '2000', 3.44, 14, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0609610570', 'Execution: The Discipline of Getting Things Done', '2002', 27.50, 16, 4);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0316602051', 'The Jester', '2003', 27.95, 17, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0743222008', 'The Vanished Man: A Lincoln Rhyme Novel', '2003', 25.00, 18, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0066214750', 'Twelve Times Blessed', '2003', 25.95, 19, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0787960756', 'The Five Dysfunctions of a Team: A Leadership Fable', '2002', 13.20, 20, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1590520734', 'The Rescuer: The O''Malley Series', '2003', 12.99, 21, 5);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0060934417', 'Bel Canto: A Novel', '2002', 13.95, 22, 5);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0440237556', 'The Dark Highlander', '2002', 6.99, 23, 5);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0373272839', 'Letters to Kelly', '2003', 4.75, 24, 5);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0670031518', 'The Blank Slate: The Modern Denial of Human Nature', '2002', 27.95, 25, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0738206679', 'Linked: The New Science of Networks', '2002', 26.00, 26, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('067976867X', 'Consilience: The Unity of Knowledge', '1999', 15.00, 27, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0679450785', 'The Future of Life', '2002', 22.00, 28, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1579550088', 'A New Kind of Science', '2002', 44.95, 29, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0684843285', 'ON FOOD AND COOKING', '1997', 22.00, 30, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0471358983', 'Building Construction Illustrated', '2000', 40.00, 3, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0394739698', 'A Field Guide to American Houses', '1984', 24.95, 31, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1586851322', 'Prefab', '2002', 39.95, 32, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1586851357', 'Cabins & Camps', '2002', 60.00, 32, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('156158648X', 'The New City Home: Smart Solutions for Metro Living', '2003', 24.95, 33, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0865659982', 'Composers'' Houses', '1998', 50.00, 34, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0517576600', 'Color: Natural Palettes for Painted Rooms', '1992', 50.00, 35, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0262024829', 'Financial Modeling ', '2000', 70.00, 36, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0072294337', 'Financial Markets & Corporate Strategy', '2001', 122.50, 37, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0072315318', 'Analysis for Financial Management', '2000', 79.20, 37, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0324107501', 'Advanced Accounting', '2001', 112.95, 38, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0471363049', 'Intermediate Accounting', '2001', 139.20, 3, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0130323519', 'Financial Reporting and Analysis ', '2001', 126.67, 39, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0446527793', 'The Guardian', '2003', 24.95, 40, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0743206061', 'The Second Time Around', '2003', 26.00, 18, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0743244249', 'Cosmopolis: A Novel', '2003', 25.00, 41, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0743467523', 'Dreamcatcher', '2003', 7.99, 42, 8);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0375703764', 'House of Leaves', '2000', 19.95, 43, 8);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0345452089', 'The Vampire''s Violin', '2003', 6.99, 44, 8);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0385504470', 'Lullaby: A Novel', '2002', 17.47, 45, 8);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0312276702', 'Jinn: A Novel', '2003', 24.95, 15, 8);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0743457358', 'Everything''s Eventual: 14 Dark Tales', '2002', 7.99, 42, 8);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1880418568', 'Wolves of the Calla ', '2003', 35.00, 46, 8);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0743455967', 'On Writing', '2002', 7.99, 42, 8);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0140077022', 'White Noise ', '1991', 14.00, 11, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0679722955', 'The Names', '1989', 11.20, 47, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0684848155', 'UNDERWORLD: A NOVEL', '1998', 16.00, 48, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0471286168', 'Architecture: Form, Space, and Order', '1996', 39.95, 3, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0471288217', 'A Visual Dictionary of Architecture', '1996', 39.95, 3, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0156006219', 'The Magician''s Assistant', '1998', 13.00, 49, 5);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0060540753', 'Patron Saint of Liars', '2003', 13.95, 50, 5);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0393318486', 'How the Mind Works', '1999', 17.95, 51, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0060958332', 'The Language Instinct: How the Mind Creates Language', '2000', 10.50, 22, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0060958405', 'Words and Rules: The Ingredients of Language', '2000', 15.00, 22, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0393319407', 'The Diversity of Life', '1999', 16.95, 51, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('067463442X', 'On Human Nature', '1988', 18.95, 52, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0446608955', 'A Walk to Remember', '2000', 6.99, 40, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0446676098', 'The Notebook', '1999', 12.95, 40, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0446606812', 'Message in a Bottle', '1999', 7.50, 40, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0262521415', 'Numerical Techniques in Finance', '1989', 35.00, 36, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0262232197', 'Econometric Analysis of Cross Section and Panel Data', '2001', 74.95, 36, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0324113641', 'Introductory Econometrics: A Modern Approach', '2002', 107.95, 38, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0471391123', 'Beyond Coso : Internal Control to Enhance Corporate Governance', '2000', 50.00, 3, 3);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0130998516', 'Real World FPGA Design with Verilog', '1999', 83.00, 53, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1565924916', 'Ldap System Administration', '2003', 39.95, 12, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0735712360', 'The Photoshop Book for Digital Photographers', '2003', 39.99, 54, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0735712379', 'Photoshop 7 Down & Dirty Tricks', '2002', 39.99, 54, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0735713170', 'Mac OS X v. 10.2 Jaguar Killer Tips', '2002', 29.99, 54, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1558606432', 'Persuasive Technology: Using Computers to Change What We Think and Do', '2002', 34.95, 4, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0072222743', 'A+ Certification All-in-One Exam Guide', '2002', 59.99, 2, 1);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0345409469', 'The Demon-Haunted World: Science As a Candle in the Dark', '1997', 14.95, 55, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0375508325', 'Cosmos', '2002', 35.00, 27, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0345336895', 'Broca''s Brain: Reflections on the Romance of Science', '1993', 6.99, 55, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0671004107', 'Contact', '1997', 7.99, 42, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0345376595', 'Pale Blue Dot: A Vision of the Human Future in Space', '1997', 12.95, 55, 6);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0316666343', 'The Lovely Bones: A Novel', '2002', 21.95, 17, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0316096199', 'Lucky: A Memoir', '2002', 11.95, 56, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('038572179X', 'Atonement', '2003', 14.00, 57, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0385494246', 'Amsterdam', '1999', 12.00, 57, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0385494327', 'Black Dogs', '1999', 14.00, 57, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0385494149', 'Enduring Love', '1999', 13.00, 57, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0399149848', 'Birthright', '2003', 25.95, 58, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0373218192', 'Engaging The Enemy', '2003', 7.50, 59, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0373218257', 'Love By Design', '2003', 14.95, 24, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0399149392', 'Chesapeake Blue', '2002', 25.95, 58, 2);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1561584029', 'The Complete Illustrated Guide to Furniture and Cabinet Construction', '2001', 39.95, 33, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1579902944', 'Choosing & Using Hand Tools', '2002', 19.95, 60, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('1561586196', 'Building a Shed', '2003', 19.95, 33, 7);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0061092177', 'Small Gods', '1994', 7.99, 61, 9);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0060502935', 'Going Postal', '2005', 7.99, 61, 9);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0061020656', 'Pyramids', '2001', 7.99, 61, 9);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0060855925', 'The Color of Magic', '2005', 13.99, 61, 9);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0061020648', 'Guards! Guards!', '2001', 7.99, 61, 9);
-INSERT INTO BOOK (isbn, title, year, price, publisher_id, category_id)
-VALUES ('0061161721', 'Unseen Academicals', '2010', 7.99, 61, 9);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0782140661', 'OCP: Oracle9i Certification Kit', 2002, 104);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0072227885', 'SQL Server 2000 for Experienced DBA''s', 2003, 34);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0471200247', 'The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling', 2002, 50);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0072227710', 'How To Do Everything with Your Tablet PC', 2003, 17);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1558605525', 'Data Mining: Practical Machine Learning Tools and Techniques with Java Implementations', 1999, 49);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0972263608', 'Creating Documents with BusinessObjects 5.1', 2002, 99);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0201615762', 'The Guru''s Guide to Transact-SQL', 2000, 38);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0782140114', 'Access 2002 Developer''s Handbook Set', 2001, 69);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0321125169', 'ColdFusion MX Web Application Construction Kit', 2002, 38);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0805317554', 'Fundamentals of Database Systems ', 1999, 95);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1861004486', 'Professional SQL Server 2000 Programming', 2000, 41);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0735712123', 'MySQL', 2003, 34);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0425188361', 'Cerulean Sins', 2003, 16);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0142001740', 'The Secret Life of Bees', 2003, 14);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0596004478', 'Google Hacks', 2003, 24);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0071414339', 'Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High', 2003, 18);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0312311354', 'The Pianist', 2003, 13);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0312287941', 'The Girl in the Red Coat: A Memoir', 2002, 25);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0312243022', 'The Hours', 2000, 3);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0609610570', 'Execution: The Discipline of Getting Things Done', 2002, 27);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0316602051', 'The Jester', 2003, 27);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0743222008', 'The Vanished Man: A Lincoln Rhyme Novel', 2003, 25);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0066214750', 'Twelve Times Blessed', 2003, 25);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0787960756', 'The Five Dysfunctions of a Team: A Leadership Fable', 2002, 13);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1590520734', 'The Rescuer: The O''Malley Series', 2003, 12);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0060934417', 'Bel Canto: A Novel', 2002, 13);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0440237556', 'The Dark Highlander', 2002, 6);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0373272839', 'Letters to Kelly', 2003, 4);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0670031518', 'The Blank Slate: The Modern Denial of Human Nature', 2002, 27);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0738206679', 'Linked: The New Science of Networks', 2002, 26);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('067976867X', 'Consilience: The Unity of Knowledge', 1999, 15);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0679450785', 'The Future of Life', 2002, 22);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1579550088', 'A New Kind of Science', 2002, 44);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0684843285', 'ON FOOD AND COOKING', 1997, 22);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0471358983', 'Building Construction Illustrated', 2000, 40);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0394739698', 'A Field Guide to American Houses', 1984, 24);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1586851322', 'Prefab', 2002, 39);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1586851357', 'Cabins & Camps', 2002, 60);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('156158648X', 'The New City Home: Smart Solutions for Metro Living', 2003, 24);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0865659982', 'Composers'' Houses', 1998, 50);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0517576600', 'Color: Natural Palettes for Painted Rooms', 1992, 50);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0262024829', 'Financial Modeling ', 2000, 70);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0072294337', 'Financial Markets & Corporate Strategy', 2001, 122);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0072315318', 'Analysis for Financial Management', 2000, 79);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0324107501', 'Advanced Accounting', 2001, 112);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0471363049', 'Intermediate Accounting', 2001, 139);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0130323519', 'Financial Reporting and Analysis ', 2001, 126);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0446527793', 'The Guardian', 2003, 24);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0743206061', 'The Second Time Around', 2003, 26);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0743244249', 'Cosmopolis: A Novel', 2003, 25);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0743467523', 'Dreamcatcher', 2003, 7);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0375703764', 'House of Leaves', 2000, 19);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0345452089', 'The Vampire''s Violin', 2003, 6);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0385504470', 'Lullaby: A Novel', 2002, 17);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0312276702', 'Jinn: A Novel', 2003, 24);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0743457358', 'Everything''s Eventual: 14 Dark Tales', 2002, 7);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1880418568', 'Wolves of the Calla ', 2003, 35);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0743455967', 'On Writing', 2002, 7);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0140077022', 'White Noise ', 1991, 14);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0679722955', 'The Names', 1989, 11);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0684848155', 'UNDERWORLD: A NOVEL', 1998, 16);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0471286168', 'Architecture: Form, Space, and Order', 1996, 39);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0471288217', 'A Visual Dictionary of Architecture', 1996, 39);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0156006219', 'The Magician''s Assistant', 1998, 13);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0060540753', 'Patron Saint of Liars', 2003, 13);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0393318486', 'How the Mind Works', 1999, 17);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0060958332', 'The Language Instinct: How the Mind Creates Language', 2000, 10);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0060958405', 'Words and Rules: The Ingredients of Language', 2000, 15);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0393319407', 'The Diversity of Life', 1999, 16);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('067463442X', 'On Human Nature', 1988, 18);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0446608955', 'A Walk to Remember', 2000, 6);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0446676098', 'The Notebook', 1999, 12);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0446606812', 'Message in a Bottle', 1999, 7);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0262521415', 'Numerical Techniques in Finance', 1989, 35);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0262232197', 'Econometric Analysis of Cross Section and Panel Data', 2001, 74);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0324113641', 'Introductory Econometrics: A Modern Approach', 2002, 107);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0471391123', 'Beyond Coso : Internal Control to Enhance Corporate Governance', 2000, 50);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0130998516', 'Real World FPGA Design with Verilog', 1999, 83);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1565924916', 'Ldap System Administration', 2003, 39);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0735712360', 'The Photoshop Book for Digital Photographers', 2003, 39);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0735712379', 'Photoshop 7 Down & Dirty Tricks', 2002, 39);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0735713170', 'Mac OS X v. 10.2 Jaguar Killer Tips', 2002, 29);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1558606432', 'Persuasive Technology: Using Computers to Change What We Think and Do', 2002, 34);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0072222743', 'A+ Certification All-in-One Exam Guide', 2002, 59);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0345409469', 'The Demon-Haunted World: Science As a Candle in the Dark', 1997, 14);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0375508325', 'Cosmos', 2002, 35);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0345336895', 'Broca''s Brain: Reflections on the Romance of Science', 1993, 6);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0671004107', 'Contact', 1997, 7);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0345376595', 'Pale Blue Dot: A Vision of the Human Future in Space', 1997, 12);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0316666343', 'The Lovely Bones: A Novel', 2002, 21);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0316096199', 'Lucky: A Memoir', 2002, 11);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('038572179X', 'Atonement', 2003, 14);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0385494246', 'Amsterdam', 1999, 12);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0385494327', 'Black Dogs', 1999, 14);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0385494149', 'Enduring Love', 1999, 13);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0399149848', 'Birthright', 2003, 25);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0373218192', 'Engaging The Enemy', 2003, 7);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0373218257', 'Love By Design', 2003, 14);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0399149392', 'Chesapeake Blue', 2002, 25);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1561584029', 'The Complete Illustrated Guide to Furniture and Cabinet Construction', 2001, 39);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1579902944', 'Choosing & Using Hand Tools', 2002, 19);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('1561586196', 'Building a Shed', 2003, 19);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0061092177', 'Small Gods', 1994, 7);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0060502935', 'Going Postal', 2005, 7);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0061020656', 'Pyramids', 2001, 7);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0060855925', 'The Color of Magic', 2005, 13);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0061020648', 'Guards! Guards!', 2001, 7);
+INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('0061161721', 'Unseen Academicals', 2010, 7);
+
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0782140661', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0072227885', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0471200247', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0072227710', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1558605525', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0972263608', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0201615762', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0782140114', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0321125169', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0805317554', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1861004486', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0735712123', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0425188361', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0142001740', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0596004478', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0071414339', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0312311354', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0312287941', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0312243022', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0609610570', 4);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0316602051', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0743222008', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0066214750', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0787960756', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1590520734', 5);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0060934417', 5);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0440237556', 5);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0373272839', 5);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0670031518', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0738206679', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('067976867X', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0679450785', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1579550088', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0684843285', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0471358983', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0394739698', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1586851322', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1586851357', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('156158648X', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0865659982', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0517576600', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0262024829', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0072294337', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0072315318', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0324107501', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0471363049', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0130323519', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0446527793', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0743206061', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0743206061', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0743244249', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0743467523', 8);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0375703764', 8);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0345452089', 8);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0385504470', 8);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0312276702', 8);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0743457358', 8);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1880418568', 8);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0743455967', 8);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0140077022', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0679722955', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0684848155', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0471286168', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0471288217', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0156006219', 5);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0060540753', 5);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0393318486', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0060958332', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0060958405', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0393319407', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('067463442X', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0446608955', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0446676098', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0446606812', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0262521415', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0262232197', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0324113641', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0471391123', 3);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0130998516', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1565924916', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0735712360', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0735712379', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0735713170', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1558606432', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0072222743', 1);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0345409469', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0375508325', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0345336895', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0671004107', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0345376595', 6);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0316666343', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0316096199', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('038572179X', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0385494246', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0385494327', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0385494149', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0399149848', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0373218192', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0373218257', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0399149392', 2);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1561584029', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1579902944', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('1561586196', 7);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0061092177', 9);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0060502935', 9);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0061020656', 9);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0060855925', 9);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0061020648', 9);
+INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Id) VALUES ('0061161721', 9);
+
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0782140661', 1);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0072227885', 2);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0471200247', 3);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0072227710', 2);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1558605525', 4);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0972263608', 5);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0201615762', 6);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0782140114', 1);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0321125169', 7);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0805317554', 8);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1861004486', 9);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0735712123', 8);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0425188361', 10);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0142001740', 11);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0596004478', 12);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0071414339', 13);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0312311354', 14);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0312287941', 15);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0312243022', 14);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0609610570', 16);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0316602051', 17);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0743222008', 18);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0066214750', 19);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0787960756', 20);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1590520734', 21);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0060934417', 22);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0440237556', 23);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0373272839', 24);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0670031518', 25);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0738206679', 26);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('067976867X', 27);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0679450785', 28);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1579550088', 29);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0684843285', 30);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0471358983', 3);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0394739698', 31);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1586851322', 32);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1586851357', 32);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('156158648X', 33);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0865659982', 34);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0517576600', 35);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0262024829', 36);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0072294337', 37);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0072315318', 37);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0324107501', 38);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0471363049', 3);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0130323519', 39);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0446527793', 40);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0743206061', 18);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0743244249', 41);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0743467523', 42);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0375703764', 43);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0345452089', 44);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0385504470', 45);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0312276702', 15);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0743457358', 42);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1880418568', 46);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0743455967', 42);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0140077022', 11);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0679722955', 47);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0684848155', 48);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0471286168', 3);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0471288217', 3);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0156006219', 49);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0060540753', 50);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0393318486', 51);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0060958332', 22);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0060958405', 22);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0393319407', 51);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('067463442X', 52);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0446608955', 40);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0446676098', 40);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0446606812', 40);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0262521415', 36);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0262232197', 36);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0324113641', 38);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0471391123', 3);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0130998516', 53);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1565924916', 12);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0735712360', 54);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0735712379', 54);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0735713170', 54);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1558606432', 4);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0072222743', 2);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0345409469', 55);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0375508325', 27);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0345336895', 55);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0671004107', 42);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0345376595', 55);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0316666343', 17);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0316096199', 56);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('038572179X', 57);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0385494246', 57);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0385494327', 57);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0385494149', 57);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0399149848', 58);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0373218192', 59);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0373218257', 24);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0399149392', 58);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1561584029', 33);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1579902944', 60);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('1561586196', 33);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0061092177', 61);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0060502935', 61);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0061020656', 61);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0060855925', 61);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0061020648', 61);
+INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Id) VALUES ('0061161721', 61);
 
 INSERT INTO BOOK_AUTHOR (Book_ISBN, Author_Id) VALUES ('0782140661', '1');
 INSERT INTO BOOK_AUTHOR (Book_ISBN, Author_Id) VALUES ('0782140661', '2');
