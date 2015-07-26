@@ -66,7 +66,10 @@
     - `Star_Count` : Number of stars this customer rated the book, stored as `INTEGER` and must be between 1 and 5.
     - `Comment` : The comment this customer made about this book, stored as `VARCHAR` with maximum length of 400.
 - BOOK_STOCK
-  - Entity for th
+  - Entity for the inventory of a book stored in a warehouse.
+  - `Book_ISBN` : The ISBN of the book, this is a foreign key referencing the `ISBN` of `BOOK`.
+  - `Warehouse_Id` : The id of the warehouse, this is a foreign key referencing the `Id` of `WAREHOUSE`.
+  - `Quantity` : The quantity of this book stored in this warehouse, stored as `INTEGER`.
 - CREDIT_CARD
   - Entity for a credit card used by customers.
   - Explanation of attributes:
@@ -74,10 +77,19 @@
    - `CVV_Code` : The CVV code for this credit card, stored as `INTEGER`.
    - `Billing_Address` : The billing address of this credit card, this is a foreign key referencing the `Id` of `Address`.
 - WAREHOUSE
+  - Entity for the place where a book is stored.
+  - Explanation of attributes:
+    - `Id` : Uniquely identifies this entity, primary key for this entity.
+    - `Address_Id` : The id of the address this warehouse is located at.
 - ADDRESS
   - Entity for the address something is located at.
   - Explanation of attributes:
     - `Id` : Uniquely identifies this entity, primary key for this entity, stored as `INTEGER`.
+    - `Name` : Name for this address, stored as `VARCHAR` with maximum length of 50.
+    - `Street_Address` : The street address of this place, stored as `VARCHAR` with maximum length of 200.
+    - `City` : City this place belongs to, stored as `VARCHAR` with maximum length of 100.
+    - `State_Code` : Postal code of the state this address belongs to, this is a foreign key referencing `Code` in `ADDRESS`.
+    - `Zip` : Zip code of this place, stored as `CHARACTER` with fixed length of 5.
 - STATE
   - Entity for all the US States.
   - Explanation of attributes:
