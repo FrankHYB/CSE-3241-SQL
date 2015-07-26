@@ -95,7 +95,7 @@
 
 #Sample Queries
 
-#`INSERT` Syntax
+#Instructions on how to insert data
 - Inserting order requirement
   - Insert Book and its corresponding author, category or publisher before inserting the relationship between them into the join tables (`BOOK_AUTHOR`, `BOOK_CATEGORY`,  `BOOK_PUBLISHER`).
   - Create the credit card and address entity before creating the customer entity.
@@ -130,4 +130,4 @@
   INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Name) VALUES ('9781400032716', 'Vintage');
   ```
 
-#`DELETE` Syntax
+#Instruction on how to delete data
