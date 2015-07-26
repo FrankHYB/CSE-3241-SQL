@@ -896,64 +896,64 @@ INSERT INTO BOOK_STOCK (Book_ISBN, Warehouse_Id, Quantity) VALUES ('0061020648',
 INSERT INTO BOOK_STOCK (Book_ISBN, Warehouse_Id, Quantity) VALUES ('0061161721', 7, 63);
 
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (1234123412341234, 123, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (2345234523452345, 234, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (3456345634563456, 345, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (4567456745674567, 456, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (5678567856785678, 567, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (6789678967896789, 678, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (7890789078907890, 789, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (2086933024487716, 458, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (3977480329117148, 160, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (1020788531832091, 965, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (7118699865064993, 097, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (9274393275767280, 808, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (7142747742356947, 761, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (7581481926668491, 640, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (9783615757241209, 399, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (3020630102993716, 906, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (5034791761743797, 725, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (6710040564782692, 588, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (8160409275624315, 619, 1);
 
-INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address)
+INSERT INTO CREDIT_CARD (Credit_Card_Number, CVV_Code, Billing_Address_Id)
 VALUES (6845411904995963, 739, 1);
 
 
