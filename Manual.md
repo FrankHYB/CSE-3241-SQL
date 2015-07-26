@@ -30,13 +30,13 @@
 - BOOK_CATEGORY
   - Entity for the relationship between a book and a category.
   - Explanation of attributes:
-    - `Book_ISBN` : The OSBN of the book.
+    - `Book_ISBN` : The ISBN of the book.
     - `Category_Id` : The id of the category.
     - This entity is uniquely identified by both `Book_ISBN` and `Category_Id`.
 - BOOK_PUBLISHER
   - Entity for the relationship between a book and a publisher.
   - Explanation of attributes:
-    - `Book_ISBN` : The OSBN of the book.
+    - `Book_ISBN` : The ISBN of the book.
     - `Publisher_Id` : The id of the publisher.
     - This entity is uniquely identified by both `Book_ISBN` and `Publisher_Id`.
 - CUSTOMER
@@ -75,12 +75,12 @@
   - Explanation of attributes:
    - `Credit_Card_Number` : The credit card's number, primary key for this entity, stored as `INTEGER`.
    - `CVV_Code` : The CVV code for this credit card, stored as `INTEGER`.
-   - `Billing_Address` : The billing address of this credit card, this is a foreign key referencing the `Id` of `Address`.
+   - `Billing_Address_Id` : The id of billing address for this credit card, this is a foreign key referencing the `Id` of `Address`.
 - WAREHOUSE
   - Entity for the place where a book is stored.
   - Explanation of attributes:
     - `Id` : Uniquely identifies this entity, primary key for this entity.
-    - `Address_Id` : The id of the address this warehouse is located at.
+    - `Address_Id` : The id of the address this warehouse is located at, this is a foreign key referencing the `Id` of `Address`.
 - ADDRESS
   - Entity for the address something is located at.
   - Explanation of attributes:
