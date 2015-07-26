@@ -1,7 +1,7 @@
 #Table Explanation
 1. BOOK
   - Entity for a book in real life.
-  - Explanation of attributes
+  - Explanation of attributes:
     - `ISBN` : The ISBN of a book, primary key for this table, stored as `CHARACTER` with fixed length of 13 (standard length of ISBN).
     - `Title` : The title of a book, stored as `VARCHAR` with maximum length of 255.
     - `Year` : Year the book was published, stored as `CHARACTER` with fixed length of 4.
@@ -100,34 +100,72 @@
   - Insert Book and its corresponding author, category or publisher before inserting the relationship between them into the join tables (`BOOK_AUTHOR`, `BOOK_CATEGORY`,  `BOOK_PUBLISHER`).
   - Create the credit card and address entity before creating the customer entity.
 - Examples
-  - Insert a new book to the `BOOK` table
+  - Insert a new book record to the `BOOK` table:
   ```sql
   INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('9781400032716', 'The Curious Incident of the Dog in the Night-Time', '2003', 7.68);
   ```
-  - Insert a new author into the `AUTHOR` table:
+  - Insert a new author record into the `AUTHOR` table:
   ```sql
   INSERT INTO AUTHOR (Name) VALUES ('Mark Haddon');
   ```
-  - Insert a new category into the `CATEGORY` table:
+  - Insert a new category record into the `CATEGORY` table:
   ```sql
   INSERT INTO CATEGORY (Name) VALUES ('Family Life');
   ```
-  - Insert a new publisher into the `PUBLISHER` table:
+  - Insert a new publisher record into the `PUBLISHER` table:
   ```sql
   INSERT INTO PUBLISHER (Name) VALUES ('Vintage');
   ```
-  - Insert a new relationship between `BOOK` and `AUTHOR` into `BOOK_AUTHOR`:
+  - Insert a new record of relationship between `BOOK` and `AUTHOR` into `BOOK_AUTHOR`:
   ```sql
   INSERT INTO BOOK_AUTHOR (Book_ISBN, Author_Name) VALUES ('9781400032716', 'Mark Haddon');
   ```
-  - Insert a new relationship between `BOOK` and `CATEGORY` into `BOOK_CATEGORY`:
+  - Insert a new record of relationship between `BOOK` and `CATEGORY` into `BOOK_CATEGORY`:
   ```sql
   INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Name) VALUES ('9781400032716', 'Family Life');
   ```
-  
-  - Insert a new relationship between `BOOK` and `PUBLISHER` into `BOOK_PUBLISHER`:
+
+  - Insert a new record of relationship between `BOOK` and `PUBLISHER` into `BOOK_PUBLISHER`:
   ```sql
   INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Name) VALUES ('9781400032716', 'Vintage');
   ```
 
 #Instruction on how to delete data
+- There are no special requirement for deleting data from the database, the database will make sure that there are no delete anomalies.
+- Examples:
+    - Delete a book record from `BOOK`:
+    ```sql
+    DELETE FROM BOOK WHERE Book_ISBN = '9781400032716';
+    ```
+
+    - Delete a author record from `AUTHOR`:
+    ```sql
+    DELETE FROM AUTHOR WHERE Name = 'Mark Haddon';
+    ```
+
+    - Delete a category record from `CATEGORY`:
+    ```sql
+    DELETE FROM CATEGORY WHERE Name = 'Family Life';
+    ```
+
+    - Delete a publisher record from `PUBLISHER`:
+    ```sql
+    DELETE FROM PUBLISHER WHERE Name = 'Vintage';
+    ```
+
+    - Delete a record of relationship between `BOOK` and `AUTHOR` from `BOOK_AUTHOR`:
+    ```sql
+    DELETE FROM BOOK_AUTHOR WHERE Book_ISBN = '9781400032716';
+    DELETE FROM BOOK_AUTHOR WHERE Author_Name = 'Mark Haddon';
+    ```
+    - Delete a record of relationship between `BOOK` and `CATEGORY` from `BOOK_CATEGORY`:
+    ```sql
+    DELETE FROM BOOK_CATEGORY WHERE Book_ISBN = '9781400032716';
+    DELETE FROM BOOK_CATEGORY WHERE Category_Name = 'Family Life';
+    ```
+
+    - Delete a record of relationship between `BOOK` and `PUBLISHER` from `BOOK_PUBLISHER`:
+    ```sql
+    DELETE FROM BOOK_PUBLISHER WHERE Book_ISBN = '9781400032716';
+    DELETE FROM BOOK_PUBLISHER WHERE Publisher_Name = 'Vintage';
+    ```
