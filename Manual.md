@@ -1,10 +1,10 @@
-#Entity Explanation
+#Table Explanation
 1. BOOK
   - Entity for a book in real life.
   - Explanation of attributes
     - `ISBN` : The ISBN of a book, primary key for this entity, stored as `CHARACTER` with fixed length of 13 (standard length of ISBN).
     - `Title` : The title of a book, stored as `VARCHAR` with maximum length of 255.
-    - `Year` : Year the book was published, stored as `CHARACTER` with fix length of 4.
+    - `Year` : Year the book was published, stored as `CHARACTER` with fixed length of 4.
     - `Price` : Price of the book, stored as `DOUBLE`.
 - AUTHOR
   - Entity for the author of a book.
@@ -22,8 +22,23 @@
     - `Id` : The id of this publisher, primary key for this entity, stored as `INTEGER`.
     - `Name` : The name of this publisher, stored as `VARCHAR` with maximum length of 100.
 - BOOK_AUTHOR
+  - Entity for the relationship between a book and an author.
+  - Explanation of attributes:
+    - `Book_ISBN` : The ISBN of the book.
+    - `Author_Id` : The id of the author.
+    - This entity is uniquely identified by both `Book_ISBN` and `Author_Id`.
 - BOOK_CATEGORY
+  - Entity for the relationship between a book and a category.
+  - Explanation of attributes:
+    - `Book_ISBN` : The OSBN of the book.
+    - `Category_Id` : The id of the category.
+    - This entity is uniquely identified by both `Book_ISBN` and `Category_Id`.
 - BOOK_PUBLISHER
+  - Entity for the relationship between a book and a publisher.
+  - Explanation of attributes:
+    - `Book_ISBN` : The OSBN of the book.
+    - `Publisher_Id` : The id of the publisher.
+    - This entity is uniquely identified by both `Book_ISBN` and `Publisher_Id`.
 - CUSTOMER
   - Entity for a customer in real life.
   - Explanation of attributes:
@@ -35,11 +50,38 @@
    - `Address_Id` : The id of this customer's address, this is a foreign key referencing the `Id` in `ADDRESS`.
    - `Credit_Card_Number` : The credit card number of this customer, this is a foreign key referencing the `Credit_Card_Number` in `CREDIT_CARD`.
 - ORDERS
+  - Entity for purchase of a book made by a single customer.
+  - Explanation of attributes:
+   - `Id` : The identifier of this purchase, primary key for this entity, stored as `INTEGER`.
+   - `Customer_Id` : Id of the customer who made this purchase, this is a foreign key referencing the `Id` in `CUSTOMER`.
+   - `Book_ISBN` : ISBN of the book purchased by the customer, this is a foreign key referencing the `ISBN` in `BOOk`.
+   - `Quantity` : The quantity of the book purchased by the customer, stored as `INTEGER`.
+   - `Purchase_Date` : The date and time when the customer made this purchase, store as `DATETIME`.
 - RATING
+  - Entity for a rating customer made about a certain book.
+  - Explanation of attributes:
+    - `Customer_Id` : The Id of the customer who rated this book, this is a foreign key referencing the `Id` in `CUSTOMER`.
+    - `Book_ISBN` : The ISBN of the book reviewed by the customer, this is a foreign key referencing the `ISBN` in `BOOK`.
+    - `Customer_Id` and `Book_ISBN` are combined as the primary key for this entity.
+    - `Star_Count` : Number of stars this customer rated the book, stored as `INTEGER` and must be between 1 and 5.
+    - `Comment` : The comment this customer made about this book, stored as `VARCHAR` with maximum length of 400.
 - BOOK_STOCK
+  - Entity for th
 - CREDIT_CARD
+  - Entity for a credit card used by customers.
+  - Explanation of attributes:
+   - `Credit_Card_Number` : The credit card's number, primary key for this entity, stored as `INTEGER`.
+   - `CVV_Code` : The CVV code for this credit card, stored as `INTEGER`.
+   - `Billing_Address` : The billing address of this credit card, this is a foreign key referencing the `Id` of `Address`.
 - WAREHOUSE
 - ADDRESS
+  - Entity for the address something is located at.
+  - Explanation of attributes:
+    - `Id` : Uniquely identifies this entity, primary key for this entity, stored as `INTEGER`.
 - STATE
+  - Entity for all the US States.
+  - Explanation of attributes:
+    - `Code` : Postal code for this state, primary key for this entity, stored as `CHARACTER` with fixed length of 2.
+    - `Name` : Name of this state, stored as `VARCHAR` with maximum length of 40.
 
 #Sample Queries
