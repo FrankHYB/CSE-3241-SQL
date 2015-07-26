@@ -2,47 +2,44 @@
 1. BOOK
   - Entity for a book in real life.
   - Explanation of attributes
-    - `ISBN` : The ISBN of a book, primary key for this entity, stored as `CHARACTER` with fixed length of 13 (standard length of ISBN).
+    - `ISBN` : The ISBN of a book, primary key for this table, stored as `CHARACTER` with fixed length of 13 (standard length of ISBN).
     - `Title` : The title of a book, stored as `VARCHAR` with maximum length of 255.
     - `Year` : Year the book was published, stored as `CHARACTER` with fixed length of 4.
     - `Price` : Price of the book, stored as `DOUBLE`.
 - AUTHOR
   - Entity for the author of a book.
   - Explanation of attributes:
-    - `Id` : The id of this author, primary key for this entity, stored as `INTEGER`.
-    - `Name` : The name of this author, stored as `VARCHAR` with maximum length of 100.
+    - `Name` : The name of this author, primary key for this table, stored as `VARCHAR` with maximum length of 100.
 - CATEGORY
   - Entity for the category a book belongs to.
   - Explanation of attributes:
-    - `Id` : The id of this category, primary key for this entity, stored as `INTEGER`.
     - `Name` : The name of this category, stored as `VARCHAR` with maximum length of 100.
 - PUBLISHER
   - Entity for the publisher of a book.
   - Explanation of attributes:
-    - `Id` : The id of this publisher, primary key for this entity, stored as `INTEGER`.
     - `Name` : The name of this publisher, stored as `VARCHAR` with maximum length of 100.
 - BOOK_AUTHOR
   - Entity for the relationship between a book and an author.
   - Explanation of attributes:
     - `Book_ISBN` : The ISBN of the book.
     - `Author_Id` : The id of the author.
-    - This entity is uniquely identified by both `Book_ISBN` and `Author_Id`.
+    - The primary key for this table is both `Book_ISBN` and `Author_Id`.
 - BOOK_CATEGORY
   - Entity for the relationship between a book and a category.
   - Explanation of attributes:
     - `Book_ISBN` : The ISBN of the book.
     - `Category_Id` : The id of the category.
-    - This entity is uniquely identified by both `Book_ISBN` and `Category_Id`.
+    - The primary key for this table is both `Book_ISBN` and `Category_Id`.
 - BOOK_PUBLISHER
   - Entity for the relationship between a book and a publisher.
   - Explanation of attributes:
     - `Book_ISBN` : The ISBN of the book.
     - `Publisher_Id` : The id of the publisher.
-    - This entity is uniquely identified by both `Book_ISBN` and `Publisher_Id`.
+    - The primary key for this table is both `Book_ISBN` and `Publisher_Id`.
 - CUSTOMER
   - Entity for a customer in real life.
   - Explanation of attributes:
-   - `Id` : The id of this customer, primary key for this entity, stored as `INTEGER`.
+   - `Id` : The id of this customer, primary key for this table, stored as `INTEGER`.
    - `First_Name` : First name of this customer, stored as `VARCHAR` with maximum length of 20.
    - `Last_Name` : Last name of this customer, stored as `VARCHAR` with maximum length of 20.
    - 'Email' : Email address of this customer, required to be unique, stored as `VARCHAR` with maximum length of 50.
@@ -52,7 +49,7 @@
 - ORDERS
   - Entity for purchase of a book made by a single customer.
   - Explanation of attributes:
-   - `Id` : The identifier of this purchase, primary key for this entity, stored as `INTEGER`.
+   - `Id` : The identifier of this purchase, primary key for this table, stored as `INTEGER`.
    - `Customer_Id` : Id of the customer who made this purchase, this is a foreign key referencing the `Id` in `CUSTOMER`.
    - `Book_ISBN` : ISBN of the book purchased by the customer, this is a foreign key referencing the `ISBN` in `BOOk`.
    - `Quantity` : The quantity of the book purchased by the customer, stored as `INTEGER`.
@@ -62,7 +59,7 @@
   - Explanation of attributes:
     - `Customer_Id` : The Id of the customer who rated this book, this is a foreign key referencing the `Id` in `CUSTOMER`.
     - `Book_ISBN` : The ISBN of the book reviewed by the customer, this is a foreign key referencing the `ISBN` in `BOOK`.
-    - `Customer_Id` and `Book_ISBN` are combined as the primary key for this entity.
+    - `Customer_Id` and `Book_ISBN` are combined as the primary key for this table.
     - `Star_Count` : Number of stars this customer rated the book, stored as `INTEGER` and must be between 1 and 5.
     - `Comment` : The comment this customer made about this book, stored as `VARCHAR` with maximum length of 400.
 - BOOK_STOCK
@@ -73,18 +70,18 @@
 - CREDIT_CARD
   - Entity for a credit card used by customers.
   - Explanation of attributes:
-   - `Credit_Card_Number` : The credit card's number, primary key for this entity, stored as `INTEGER`.
+   - `Credit_Card_Number` : The credit card's number, primary key for this table, stored as `INTEGER`.
    - `CVV_Code` : The CVV code for this credit card, stored as `INTEGER`.
    - `Billing_Address_Id` : The id of billing address for this credit card, this is a foreign key referencing the `Id` of `Address`.
 - WAREHOUSE
   - Entity for the place where a book is stored.
   - Explanation of attributes:
-    - `Id` : Uniquely identifies this entity, primary key for this entity.
+    - `Id` : Primary key for this table.
     - `Address_Id` : The id of the address this warehouse is located at, this is a foreign key referencing the `Id` of `Address`.
 - ADDRESS
   - Entity for the address something is located at.
   - Explanation of attributes:
-    - `Id` : Uniquely identifies this entity, primary key for this entity, stored as `INTEGER`.
+    - `Id` : Primary key for this table, stored as `INTEGER`.
     - `Name` : Name for this address, stored as `VARCHAR` with maximum length of 50.
     - `Street_Address` : The street address of this place, stored as `VARCHAR` with maximum length of 200.
     - `City` : City this place belongs to, stored as `VARCHAR` with maximum length of 100.
@@ -93,7 +90,44 @@
 - STATE
   - Entity for all the US States.
   - Explanation of attributes:
-    - `Code` : Postal code for this state, primary key for this entity, stored as `CHARACTER` with fixed length of 2.
+    - `Code` : Postal code for this state, primary key for this table, stored as `CHARACTER` with fixed length of 2.
     - `Name` : Name of this state, stored as `VARCHAR` with maximum length of 40.
 
 #Sample Queries
+
+#`INSERT` Syntax
+- Inserting order requirement
+  - Insert Book and its corresponding author, category or publisher before inserting the relationship between them into the join tables (`BOOK_AUTHOR`, `BOOK_CATEGORY`,  `BOOK_PUBLISHER`).
+  - Create the credit card and address entity before creating the customer entity.
+- Examples
+  - Insert a new book to the `BOOK` table
+  ```sql
+  INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('9781400032716', 'The Curious Incident of the Dog in the Night-Time', '2003', 7.68);
+  ```
+  - Insert a new author into the `AUTHOR` table:
+  ```sql
+  INSERT INTO AUTHOR (Name) VALUES ('Mark Haddon');
+  ```
+  - Insert a new category into the `CATEGORY` table:
+  ```sql
+  INSERT INTO CATEGORY (Name) VALUES ('Family Life');
+  ```
+  - Insert a new publisher into the `PUBLISHER` table:
+  ```sql
+  INSERT INTO PUBLISHER (Name) VALUES ('Vintage');
+  ```
+  - Insert a new relationship between `BOOK` and `AUTHOR` into `BOOK_AUTHOR`:
+  ```sql
+  INSERT INTO BOOK_AUTHOR (Book_ISBN, Author_Name) VALUES ('9781400032716', 'Mark Haddon');
+  ```
+  - Insert a new relationship between `BOOK` and `CATEGORY` into `BOOK_CATEGORY`:
+  ```sql
+  INSERT INTO BOOK_CATEGORY (Book_ISBN, Category_Name) VALUES ('9781400032716', 'Family Life');
+  ```
+  
+  - Insert a new relationship between `BOOK` and `PUBLISHER` into `BOOK_PUBLISHER`:
+  ```sql
+  INSERT INTO BOOK_PUBLISHER (Book_ISBN, Publisher_Name) VALUES ('9781400032716', 'Vintage');
+  ```
+
+#`DELETE` Syntax
