@@ -102,7 +102,8 @@
 - Examples
   - Insert a new book record to the `BOOK` table:
   ```sql
-  INSERT INTO BOOK (ISBN, Title, Year, Price) VALUES ('9781400032716', 'The Curious Incident of the Dog in the Night-Time', '2003', 7.68);
+  INSERT INTO BOOK (ISBN, Title, Year, Price)
+  VALUES ('9781400032716', 'The Curious Incident of the Dog in the Night-Time', '2003', 7.68);
   ```
   - Insert a new author record into the `AUTHOR` table:
   ```sql
