@@ -22,20 +22,20 @@
   - Entity for the relationship between a book and an author.
   - Explanation of attributes:
     - `Book_ISBN` : The ISBN of the book.
-    - `Author_Id` : The id of the author.
-    - The primary key for this table is both `Book_ISBN` and `Author_Id`.
+    - `Author_Name` : The id of the author.
+    - The primary key for this table is both `Book_ISBN` and `Author_Name`.
 - BOOK_CATEGORY
   - Entity for the relationship between a book and a category.
   - Explanation of attributes:
     - `Book_ISBN` : The ISBN of the book.
-    - `Category_Id` : The id of the category.
-    - The primary key for this table is both `Book_ISBN` and `Category_Id`.
+    - `Category_Name` : The id of the category.
+    - The primary key for this table is both `Book_ISBN` and `Category_Name`.
 - BOOK_PUBLISHER
   - Entity for the relationship between a book and a publisher.
   - Explanation of attributes:
     - `Book_ISBN` : The ISBN of the book.
-    - `Publisher_Id` : The id of the publisher.
-    - The primary key for this table is both `Book_ISBN` and `Publisher_Id`.
+    - `Publisher_Name` : The id of the publisher.
+    - The primary key for this table is both `Book_ISBN` and `Publisher_Name`.
 - CUSTOMER
   - Entity for a customer in real life.
   - Explanation of attributes:
