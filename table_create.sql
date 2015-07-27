@@ -137,16 +137,14 @@ CREATE INDEX STATE_INDEX ON STATE (Code);
 /**
  * View creation.
  */
--- A view that contains all the ratings for a book.
-CREATE VIEW BOOK_RATING AS
-  SELECT
-    Title,
-    (First_Name || ' ' || Last_Name) AS Customer_Name,
-    Star_Count,
-    Comment
-  FROM BOOK
-    JOIN RATING ON BOOK.ISBN = RATING.Book_ISBN
-    JOIN CUSTOMER ON CUSTOMER.Id = RATING.Customer_Id;
+-- The most profitable category that brings in most money.
+CREATE VIEW MOST_PROFITABLE_CATEGORY AS
+  SELECT CATEGORY.Name
+  FROM ORDERS
+    JOIN BOOK ON Book.ISBN = ORDERS.Book_ISBN
+    JOIN BOOK_CATEGORY ON Book.ISBN = BOOK_CATEGORY.Book_ISBN
+    JOIN CATEGORY ON CATEGORY.Name = BOOK_CATEGORY.Category_Name
+  GROUP BY CATEGORY.Name ORDER BY sum(Quantity * Price) DESC LIMIT 1;
 
 -- The most gorgeous state from which people spend the most money.
 CREATE VIEW MOST_GORGEOUS_STATE AS
